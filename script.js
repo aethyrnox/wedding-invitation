@@ -1,9 +1,12 @@
 window.addEventListener("load", function () {
   const loading = document.getElementById("loading");
   loading.style.opacity = "0";
-  setTimeout(() => {
-    loading.style.display = "none";
-  }, 500);
+   setTimeout(() => {
+    ld.style.opacity = "0";
+    setTimeout(() => {
+      ld.style.display = "none";
+    }, 500); // waktu animasi menghilang
+  }, 4500); // durasi loading screen
 });
 // Musik kontrol
 const music = document.querySelector("audio");
