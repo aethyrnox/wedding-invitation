@@ -114,7 +114,6 @@ footer {
   display: flex;
   animation: scroll 20s linear infinite;
 }
-
 .carousel-track img {
   width: 100%;
   max-width: 100%;
@@ -127,4 +126,14 @@ footer {
 @keyframes scroll {
   0% { transform: translateX(0); }
   100% { transform: translateX(-100%); }
+}.glider-contain {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.glider img {
+  border-radius: 12px;
+  margin: 10px;
+  max-height: 300px;
+  object-fit: cover;
 }
