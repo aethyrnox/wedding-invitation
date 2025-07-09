@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: url('background.jpg') center/cover no-repeat;
-  color: #fff;
+  background: linear-gradient(135deg, #f8d7da, #fef1e6); /* merah pastel ke krem */
+  color: #333;
   overflow-x: hidden;
 }
 header {
