@@ -122,7 +122,25 @@ footer {
   object-fit: cover;
   border-right: 5px solid #fff;
 }
-
+.donation {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 500px;
+  margin: 30px auto;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-size: 1em;
+}
+.donation p {
+  margin: 10px 0;
+}
+.qris {
+  margin-top: 10px;
+  max-width: 200px;
+  width: 100%;
+  border-radius: 12px;
+}
 @keyframes scroll {
   0% { transform: translateX(0); }
   100% { transform: translateX(-100%); }
