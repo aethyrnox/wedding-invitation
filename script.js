@@ -16,10 +16,10 @@ if (controlBtn) {
   controlBtn.addEventListener("click", () => {
     if (music.paused) {
       music.play();
-      controlBtn.textContent = "⏸️";
+      controlBtn.textContent = "▶️";
     } else {
       music.pause();
-      controlBtn.textContent = "▶️";
+      controlBtn.textContent = "⏸️";
     }
   });
 }
